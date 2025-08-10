@@ -12,7 +12,7 @@ pipeline {
 
         TOMCAT_URL = 'http://54.81.61.126:9090/manager/html'
         TOMCAT_USER = 'admin'
-        TOMCAT_PASS = 'admin'
+        TOMCAT_PASS = 'adminadmin'
 
         BACKEND_WAR = 'springapp1.war'
         FRONTEND_WAR = 'frontapp1.war'
