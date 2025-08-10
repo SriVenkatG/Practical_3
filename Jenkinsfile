@@ -29,7 +29,7 @@ pipeline {
             steps {
                 dir("${env.FRONTEND_DIR}") {
                     script {
-                        def nodeHome = tool name: 'NODE_HOME', type: 'jenkins.plugins.nodejs.tools.NodeJSInstallation'
+                        def nodeHome = tool name: 'NODEJS_HOME', type: 'jenkins.plugins.nodejs.tools.NodeJSInstallation'
                         env.PATH = "${nodeHome}/bin:${env.PATH}"
                     }
                     sh 'npm install'
